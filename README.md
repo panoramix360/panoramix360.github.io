@@ -1,4 +1,4 @@
-myresume
-========
+Resume
+======
 
-My resume
+Hi, my name is Lucas and this is my resume.
