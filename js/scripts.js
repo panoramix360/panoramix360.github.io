@@ -12,6 +12,26 @@ var callback = function(){
         height: 14,
     }, 2000);
 	});
+
+	var hideOthersSkills = function() {
+		$('.item-skills').each(function() {
+			var ul = $(this).next();
+
+			ul.slideUp();
+		});		
+	};
+
+	$('.item-skills').on('click', function(e) {
+		e.preventDefault();
+
+		hideOthersSkills();
+		
+		var ul = $(this).next();
+
+		if(ul.find('li').length > 0) {
+			ul.slideToggle();
+		}
+	});
 };
 $(document).ready(callback);
 

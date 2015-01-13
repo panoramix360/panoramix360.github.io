@@ -362,3 +362,19 @@ MEDIA
     width: 90%;
   }
 }
+/*******************************************
+CUSTOM
+*******************************************/
+.item-skills-detail {
+  display: none;
+  font-size: 16px;
+}
+.item-skills-detail li {
+  list-style-type: square;
+}
+.item-skills {
+  cursor: pointer;
+}
+.project-detail {
+  font-size: 14px;
+}
